@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfegirActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/codiET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Codi">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/descripcioET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripció"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+
+    <Spinner
+        android:id="@+id/familiaSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+    </Spinner>
+
+
+    <EditText
+        android:id="@+id/estocET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estoc"
+        android:inputType="numberSigned|numberDecimal"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/pvpET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="P.V.P."
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_afegir"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Afegir"/>
+</LinearLayout>
